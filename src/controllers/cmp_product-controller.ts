@@ -20,10 +20,8 @@ router.get('/productlist/:cmpId', (req: Request, res: Response) => {
         }
     );
 });
-//router.get('/productlist/:cmpId', ...): This sets up a route handler for HTTP GET requests at the path '/productlist/:cmpId', where :cmpId is a route parameter representing the company ID.
-//const cmpId: number = parseInt(req.params.cmpId);: This line parses the cmpId from the route parameters (req.params.cmpId). It ensures that the cmpId is a number.
-//cmp_productService.getAllProductsForCompany(cmpId): This invokes the getAllProductsForCompany function from the cmp_productService module, passing the parsed cmpId.
-//.then((products) => { res.send(products); }): If the promise returned by getAllProductsForCompany resolves successfully, the products are sent as a response. The res.send(products) sends a JSON response containing the list of products.
+
+
 
 
 // Function to retrieve product name, original price, price after discount for a given company
