@@ -11,6 +11,6 @@ const pg = pgPromise({});
 
 
 export const db = pg("postgres://postgres:dipti@localhost:5432/students");
-pg("postgres://postgres:dipti@localhost:5432/students"); //This part invokes the pg function, which is presumably an instance of the pg-promise library, with a PostgreSQL connection URL.
+pg("postgres://postgres:dipti2002@localhost:5433/students"); //This part invokes the pg function, which is presumably an instance of the pg-promise library, with a PostgreSQL connection URL.
 
 //"postgres://postgres:dipti@localhost:5432/students": This is a connection URL that includes the necessary details to connect to a PostgreSQL database. It specifies the username (postgres), password (dipti), host (localhost), port (5432), and the name of the database (students).
